@@ -25,6 +25,9 @@ const ReducerComp = () => {
   };
   return (
     <>
+      <p>
+        <b>useReducer: Example</b>
+      </p>
       <input type="text" value={state.name} onChange={handleInputChange} />
       <button onClick={() => dispatch({ type: "increment-age" })}>
         Increment age
